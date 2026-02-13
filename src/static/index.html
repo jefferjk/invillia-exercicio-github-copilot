@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mergington High School Activities</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- cache-busting version query for CSS -->
+    <link rel="stylesheet" href="styles.css?v=1.0.2" />
   </head>
   <body>
     <header>
@@ -45,6 +46,7 @@
       <p>&copy; 2023 Mergington High School</p>
     </footer>
 
-    <script src="app.js"></script>
+    <!-- include versioned script to avoid stale cache -->
+    <script src="app.js?v=1.0.2"></script>
   </body>
 </html>
