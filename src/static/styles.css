@@ -142,4 +142,25 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* participant list styled with square pink boxes */
+.participants-list {
+  margin: 5px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.participants-list li {
+  background-color: #fce4ec; /* light pink */
+  color: #c2185b;             /* dark pink text */
+  padding: 6px 10px;
+  border: 1px solid #f8bbd0;
+  border-radius: 4px;
+  font-size: 0.9em;
+  min-width: 120px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
  
